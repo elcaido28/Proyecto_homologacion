@@ -1,0 +1,106 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  MENU1 %%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+*{margin: 0 ;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+.logo_login{
+  width: 100px;
+  height: 70px;
+}
+.nav1{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: #07ba24;
+}
+
+.header2{
+  width:100%;
+  overflow:hidden;
+  background:#068119;
+  margin-bottom:20px;
+
+}
+.logo_uae{
+  width: 250px;
+  height: 45px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+.header2 .logo{
+color:#bec9c1;
+float: left;
+margin:0px 30px;
+}
+.header2 .menu-logo{
+margin:0px 30px;
+float: right;
+text-align: center;
+font-size:20px;
+line-height:50px;
+height: 50px;
+}
+.header2 .menu-logo a{
+color:#FFFFFF;
+text-decoration:none;
+padding:10px 20px;
+line-height:normal;
+font-size:16px;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+}
+.header2 .menu-logo .a1:hover {
+background:#6cd97a;
+border-radius:50px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BARRA DE PROGRESO %%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.conten_progreso{
+  width: 100%;
+  height: auto;
+  padding: 0px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.titulo2{
+  width: 60%;
+  height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.titulo2 p {
+  padding: 70px 10px 10px 10px;
+  font-family: serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #001b6e;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.54);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.progreso{
+  width: 85%;
+  margin-top: 30px;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.54);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+.salir{
+  background-color: rgba(166, 7, 7, 0.91);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+}

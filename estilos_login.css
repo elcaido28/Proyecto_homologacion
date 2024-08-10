@@ -1,0 +1,145 @@
+*{margin: 0 ;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+body{
+
+  background-image: url(imagenes/banner12.jpg);
+  background-size: auto 100vh;
+ background-position:center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+
+}
+.bord{
+  width: 380px;
+  padding-left: 65px;
+  padding-top:25px;
+  padding-right: 65px;
+  padding-bottom:25px;
+  background-color: rgba(79, 145, 60, 0.64);
+  border-radius: 8px;
+}
+.logo_login{
+  width: 250px;
+  height: 70px;
+}
+.formulario1{
+   width:250px;
+   background-color: rgba(211, 249, 209, 0.88);
+   text-align:center;
+   margin-bottom: 40px;
+   border-radius: 7px;
+   box-shadow:  rgba(54, 54, 54, 1) 3px 3px 3px ;
+  }/*para establecer la tabla de resgistros al filo-isquierdo del pamel*/
+   /*margin-top: -100px; para establecer la tabla de resgistros al filo-arriba del pamel*/
+
+.con_form{
+  text-align:center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+.formulario1 .titulo_from{
+   text-align:center;
+   padding: 20px;
+   margin-left: 0px;
+   background-color: rgba(211, 249, 209, 0.88);
+   font-size: 20px;
+   color: #000;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   border-bottom: 3px solid #8fda9f;
+   }
+
+ .cajagrande{
+      width: 420px;
+      height: 25px;
+      margin-bottom: 20px;
+      border: 0px;
+      background-color: #f5fcdc;
+      border-radius: 5px;
+
+    }
+ .cajapeque{
+       width: 220px;
+       height: 25px;
+       margin-bottom: 20px;
+       border: 0px;
+       border-radius: 5px;
+       background: none;
+       background-image: none;
+       border: 1px solid #2c4541;
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       color: #000;
+       &:focus {
+           outline: none;
+           border-color: #1ab188;
+       }
+}
+ .cajapeque:hover{
+   background: none;
+   background-image: none;
+   border: 2px solid #86b316;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+ }
+ .cajadescrip{
+   width: 420px;
+   height: 70px;
+   margin-bottom: 20px;
+   border: 0px;
+   background-color: #f5fcdc;
+   border-radius: 5px;
+
+ }
+ .combo{
+     width: 200px;
+     height: 25px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      border: 0px;
+      background-color: #f5fcdc;
+      border-radius: 5px;
+
+    }
+  .btn_cerrar2{
+        width: 150px;
+        height: 30px;
+       margin-left: 20px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 0px;
+        background-color:#d65b5b;
+        border-radius: 5px;
+        color: #ffffff;
+      }
+  .aceptar2{
+         width: 170px;
+         height: 30px;
+        margin-left: 25px;
+         margin-bottom: 10px;
+         padding-left: 10px;
+         text-align: center;
+         font-size: 1.1em;
+         outline: none;
+         border: 0px;
+         background-color:#09c665;
+         border-radius: 5px;
+         color: #ffffff;
+         box-shadow:  rgba(51, 96, 49, 1) 3px 3px 3px;
+       }
+       .aceptar2:hover{
+         box-shadow:  rgba(107, 124, 2, 1) 3px 3px 3px;
+       }
